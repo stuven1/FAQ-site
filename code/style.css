@@ -1,4 +1,55 @@
 html {
-  background: #f2f1f4;
-  color: #19171c;
+  background-color: black;
+}
+
+h1{
+  font-size:40px;
+  font-style:oblique;
+  font-family: sans-serif, monospace;
+  color:brown;
+  text-align:center;
+}
+
+h2{
+  font-size:25px;
+  font-style:oblique;
+  font-family: sans-serif, monospace;
+  color: pink;
+  text-align: center;
+}
+
+p{
+  font-size:15px;
+  font-family: sans-serif, monospace;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+li{
+  font-size:15px;
+  font-family: sans-serif, monospace;
+  color: white;
+  text-align:center;
+  margin: 10px;
+}
+
+ul{
+  text-align: center;
+  list-style: none;
+  margin: 10px;
+}
+
+ol{
+  text-align: center;
+  list-style-position: inside;
+}
+.pointer {cursor: se-resize;}
+
+.descriptions{
+  display: none;
+}
+
+.active + .descriptions{
+  display: block;
 }
